@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Aula 3 - Do Zero"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7f3e2a23-c8b4-417d-a742-a3096bf5d261"
+  }
+}

@@ -1,0 +1,3833 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "base_funcionario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base funcionario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BaseFuncionarios": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.id_rh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "ID RH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id rh": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification rh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "identity rh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "identifier rh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "credential rh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.nome_completo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Nome Completo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome completo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.estado_civil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Estado Civil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado civil": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_nascimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Data de Nascimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data de nascimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "base_funcionario.data_de_nascimento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_nascimento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_nascimento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_nascimento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_nascimento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.endereço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Endereço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "endereço": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_contratacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Data de Contratacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data de contratacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record de contratacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "base_funcionario.data_de_contratacao.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Contratacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_contratacao.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Contratacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de contratacao ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de contratacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_contratacao.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Contratacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de contratacao trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de contratacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_contratacao.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Contratacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de contratacao mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de contratacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_contratacao.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Contratacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de contratacao dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de contratacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_demissao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Data de Demissao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data de demissao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record de demissao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "base_funcionario.data_de_demissao.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Demissao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_demissao.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Demissao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de demissao ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de demissao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_demissao.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Demissao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de demissao trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de demissao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_demissao.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Demissao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de demissao mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de demissao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.data_de_demissao.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "VariationSource": "Data de Demissao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de demissao dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de demissao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.cargo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Cargo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cargo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "consignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shipment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payload": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "load": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "freight": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.área": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Área"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "área": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.ano_da_contratação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Ano da Contratação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano da contratação": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.cidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Cidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.horas_extra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Horas Extras"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas extra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora extra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.avaliação_do_funcionário": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Avaliação do Funcionário"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avaliação do funcionário": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.genero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Genero"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genero": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "base_funcionario.salario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BaseFuncionarios",
+			          "ConceptualProperty": "Salario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "salario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_contratações": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total Contratações"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total contratações": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate contrataçõe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall contrataçõe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.funcionarios_ativos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Funcionarios Ativos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "funcionarios ativos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Func. Ativos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_demissões": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total Demissões"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total demissões": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate demissõe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall demissõe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Demissões": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "base_funcionario_data_de_demissao_ano_has_base_funcionario_data_de_demissao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.ano": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.ano"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.ano"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_hierarquia_de_data_has_base_funcionario_data_de_demissao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.dia": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_hierarquia_de_data_has_base_funcionario_data_de_demissao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_hierarquia_de_data_has_base_funcionario_data_de_demissao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_hierarquia_de_data_has_base_funcionario_data_de_demissao_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.ano": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_de_demissaos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_mê_has_base_funcionario_data_de_contratacao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.mê"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.dia": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.dia"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_trimestre_has_base_funcionario_data_de_contratacao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.trimestre"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_ano_has_base_funcionario_data_de_contratacao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.ano": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.ano"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.ano"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_hierarquia_de_data_has_base_funcionario_data_de_contratacao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.dia": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_hierarquia_de_data_has_base_funcionario_data_de_contratacao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_hierarquia_de_data_has_base_funcionario_data_de_contratacao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_hierarquia_de_data_has_base_funcionario_data_de_contratacao_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.ano": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_contratacao_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_contratacao": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_contratacao"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_de_contratacaos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_mê_has_base_funcionario_data_de_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.mê"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.dia": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.dia"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_trimestre_has_base_funcionario_data_de_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.trimestre"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_ano_has_base_funcionario_data_de_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.ano": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.ano"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.ano"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_hierarquia_de_data_has_base_funcionario_data_de_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.dia": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_hierarquia_de_data_has_base_funcionario_data_de_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_hierarquia_de_data_has_base_funcionario_data_de_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_hierarquia_de_data_has_base_funcionario_data_de_nascimento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.ano": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_nascimento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_nascimento": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_nascimento"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_de_nascimentos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_entity__medida_total_demissões": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "entity__medida.total_demissões": {
+			          "Target": {
+			            "Entity": "entity__medida.total_demissões"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_demissões"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_total_demissões"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_entity__medida_funcionarios_ativos": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "entity__medida.funcionarios_ativos": {
+			          "Target": {
+			            "Entity": "entity__medida.funcionarios_ativos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.funcionarios_ativos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_funcionarios_ativos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_entity__medida_total_contratações": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "entity__medida.total_contratações": {
+			          "Target": {
+			            "Entity": "entity__medida.total_contratações"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_contratações"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_total_contratações"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_salario": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.salario": {
+			          "Target": {
+			            "Entity": "base_funcionario.salario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.salario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_salarios"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "base_funcionario.salario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_indicates_how_expensive_base_funcionarios_are"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_genero": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.genero": {
+			          "Target": {
+			            "Entity": "base_funcionario.genero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.genero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_generos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_avaliação_do_funcionário": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.avaliação_do_funcionário": {
+			          "Target": {
+			            "Entity": "base_funcionario.avaliação_do_funcionário"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.avaliação_do_funcionário"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_avaliação_do_funcionários"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_horas_extra": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.horas_extra": {
+			          "Target": {
+			            "Entity": "base_funcionario.horas_extra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.horas_extra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_horas_extras"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_cidade": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.cidade": {
+			          "Target": {
+			            "Entity": "base_funcionario.cidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.cidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_cidades"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_ano_da_contratação": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.ano_da_contratação": {
+			          "Target": {
+			            "Entity": "base_funcionario.ano_da_contratação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.ano_da_contratação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_ano_da_contrataçãos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_área": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.área": {
+			          "Target": {
+			            "Entity": "base_funcionario.área"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.área"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_áreas"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_cargo": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.cargo": {
+			          "Target": {
+			            "Entity": "base_funcionario.cargo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.cargo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_cargoes"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_data_de_demissao": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_data_de_demissaos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_data_de_contratacao": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.data_de_contratacao": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_contratacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_contratacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_data_de_contratacaos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_endereço": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.endereço": {
+			          "Target": {
+			            "Entity": "base_funcionario.endereço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.endereço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_endereços"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_data_de_nascimento": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.data_de_nascimento": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_nascimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_nascimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_data_de_nascimentos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_estado_civil": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.estado_civil": {
+			          "Target": {
+			            "Entity": "base_funcionario.estado_civil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.estado_civil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_estado_civil"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_nome_completo": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.nome_completo": {
+			          "Target": {
+			            "Entity": "base_funcionario.nome_completo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.nome_completo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_nome_completos"
+			        }
+			      ]
+			    },
+			    "base_funcionario_has_id_rh": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario": {
+			          "Target": {
+			            "Entity": "base_funcionario"
+			          }
+			        },
+			        "base_funcionario.id_rh": {
+			          "Target": {
+			            "Entity": "base_funcionario.id_rh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.id_rh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "base_funcionarios_have_id_rh"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_trimestre_has_base_funcionario_data_de_demissao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.trimestre": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.trimestre"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "base_funcionario_data_de_demissao_mê_has_base_funcionario_data_de_demissao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "BaseFuncionarios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "base_funcionario.data_de_demissao.mê": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.mê"
+			          }
+			        },
+			        "base_funcionario.data_de_demissao.dia": {
+			          "Target": {
+			            "Entity": "base_funcionario.data_de_demissao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.dia"
+			            },
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "base_funcionario.data_de_demissao.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "base_funcionario.data_de_demissao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

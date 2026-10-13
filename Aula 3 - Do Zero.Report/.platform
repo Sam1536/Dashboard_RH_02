@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Aula 3 - Do Zero"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cea03c89-9807-4c98-bc89-68bd961874f0"
+  }
+}

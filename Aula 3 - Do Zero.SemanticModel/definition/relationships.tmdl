@@ -1,0 +1,15 @@
+relationship 0192a671-e41e-46c5-bcdc-d5147209c614
+	joinOnDateBehavior: datePartOnly
+	fromColumn: BaseFuncionarios.'Data de Nascimento'
+	toColumn: LocalDateTable_a93b6488-69fe-4ad2-a6f6-d4d3cfe33a30.Date
+
+relationship 302079e9-5080-47cc-a45d-9552cc301f08
+	joinOnDateBehavior: datePartOnly
+	fromColumn: BaseFuncionarios.'Data de Contratacao'
+	toColumn: LocalDateTable_7c6beace-5c4a-42d0-8195-8d6880727733.Date
+
+relationship 23348195-096a-4236-9d16-8baa68199275
+	joinOnDateBehavior: datePartOnly
+	fromColumn: BaseFuncionarios.'Data de Demissao'
+	toColumn: LocalDateTable_6b935564-c50a-4e10-aacb-743e2dc8b18f.Date
+
